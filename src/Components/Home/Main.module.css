@@ -1,0 +1,299 @@
+.heroContainer{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 12em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0em 2em;
+}
+.heroTitle h2{
+ color: var(--secondary-color);
+  font-style: normal;
+  font-size: 3.18rem;
+  font-weight: var(--font-weight-bold);
+  line-height: 4.9rem;
+  font-family: var(--primary-font-family);
+
+}
+.heroTitle span::before{
+    animation: textanimate 5s infinite;
+    content: "Front End ";
+}
+@keyframes textanimate{
+   0%{
+    content: "Front End ";
+   }
+   50%{
+    content: "React ";
+   }
+   100%{
+    content: "Javascript ";
+   }
+}
+
+.heroTitle p{
+    color: var(--primary-color);
+    font-family: var(--primary-font-family);
+    font-style: normal;
+    font-weight: var(--font-weight-bold);
+    font-size: 2rem;
+    line-height: 3rem;
+}
+.heroTitle p:nth-child(1){
+    color: var(--secondary-color);
+    font-family: var(--primary-font-family);
+    font-style: normal;
+    font-weight: var(--font-weight-bold);
+    font-size: 2rem;
+    line-height: 3rem;
+}
+
+.image{
+    background: var(--primary-color);
+    border-radius: 50%;
+    position: relative;
+    z-index: -1;
+}
+.image img{
+    position: relative;
+    z-index: -1;
+    top: 10px;
+}
+.blankRow{
+    height: 10vh;
+    width: 100vw;
+    background-color: #181824;
+}
+.aboutContainer{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0em 2em;
+}
+.about{
+    margin-top: 4.4em;
+}
+.about h3{
+    color: var(--primary-color);
+    font-family: var(--primary-font-family);
+    font-size: 2rem;
+    font-weight: var(--font-weight-bold);
+    line-height: 4.9rem;
+    font-style: normal;
+}
+.about p{
+    color: var(--secondary-color);
+    font-family: var(--primary-font-family);
+    font-style: normal;
+    font-weight: var(--font-weight-normal);
+    line-height: 2rem;
+}
+.experienceSection{
+    display: flex;
+    padding-top: 1.5em;
+    align-items: center;
+    gap: 1.5rem;
+}
+.five p{
+    color: var(--primary-color);
+    font-size: 6rem;
+    font-weight: var(--font-weight-bold);
+    line-height: 8rem;
+    font-family: var(--primary-font-family);
+}
+.experience p{
+    color: var(--secondary-color);
+    font-weight: var(--font-weight-medium);
+    font-family: var(--primary-font-family);
+    line-height: 1.5rem;
+}
+.technologyRow{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    justify-content: center;
+    align-items: center;
+    row-gap: 2rem;
+    margin-top: 3.5em;
+    margin-bottom: 3.5em;
+}
+.technologyContainer{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.technologyContainer p{
+  text-align: center;
+  font-size: 2rem;
+  color: var(--primary-color);
+  font-family: var(--primary-font-family);
+  font-weight: var(--font-weight-bold);
+  line-height: 2.5rem;
+}
+.technologyRow .logoOne,
+.technologyRow .logoTwo,
+.technologyRow .logoThree,
+.technologyRow .logoFour,
+.technologyRow .logoFive,
+.technologyRow .logoSix,
+.technologyRow .logoSeven,
+.technologyRow .logoEight {
+display: flex;
+justify-content: center;
+}
+.technologyRow .logoOne img,
+.technologyRow .logoTwo img,
+.technologyRow .logoThree img,
+.technologyRow .logoFour img,
+.technologyRow .logoFive img,
+.technologyRow .logoSix img,
+.technologyRow .logoSeven img,
+.technologyRow .logoEight img
+{
+    width: 20%;
+}
+.projectsContainer{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0em 2em;
+}
+.headingProjects{
+    margin: 2em 0em 2em 0em;
+}
+.headingProjects h4{
+    color: var(--secondary-color);
+    font-family: var(--primary-font-family);
+    font-size: 2.5rem;
+    font-weight: var(--font-weight-bold);
+    line-height: 2rem;
+}
+.headingProjects p{
+    color: var(--secondary-color);
+    font-family: var(--primary-font-family);
+    font-size: 1.5rem;
+    font-weight: var(--font-weight-normal);
+    padding: .5em 0em .5em 0em;
+    line-height: 2rem;
+}
+.projectscardBody{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    gap: 3rem;
+}
+.projectOne h5{
+  color: var(--secondary-color);
+  font-size: 1.2rem;
+  font-family: var(--primary-font-family);
+  font-weight: var(--font-weight-bold);
+  line-height: 2rem;
+  padding: 1em 0em 1em 0em;
+}
+.card {
+    padding: 1em 0em 1em 0em;
+}
+
+.projectLink {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 0em 1em 0em;
+}
+.projectLink a{
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-size: .7rem;
+    font-weight: var(--font-weight-bold);
+    font-family: var(--primary-font-family);
+    line-height: 2rem;
+    padding: .5em 1em .5em 1em;
+    background-color: var(--primary-color);
+}
+.projectOne{
+    background: #31313F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    padding: 1em .6em 1em .6em;
+    position: relative;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #31313F;
+    z-index: 1;
+    cursor: pointer;
+}
+.projectOne:hover .overlay {
+    opacity: .8;
+  }
+  .text p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: var(--primary-font-family);
+    font-weight: var(--font-weight-medium);
+    line-height: 2rem;
+    font-style: normal;
+    opacity: 1;
+    color: var(--secondary-color);
+    z-index: 1;
+  }
+.projectOne img{
+    width: 100%;
+    object-fit: cover;
+    text-align: center;
+    height: 20vh;
+}
+
+@media screen and (max-width: 768px){
+    .heroImage{
+        display: none;
+    }
+    .heroContainer{
+        justify-content: center;
+        padding: 0em 0em 4em 0em;
+    }
+    .aboutContainer{
+        text-align: center;
+        padding: 0em 1em 0em 1em;
+    }
+    .experienceSection{
+        flex-direction: column;
+    }
+    .headingProjects{
+        text-align: center;
+    }
+    .projectscardBody{
+        padding: 0em 1em 0em 1em;
+    }
+    .projectOne h5{
+        color: var(--secondary-color);
+        font-size: 1.4rem;
+    }
+    .projectLink a{
+        font-size: .7rem;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .aboutContainer{
+        text-align: center;
+    }
+    .projectsContainer{
+        text-align: center;
+    }
+}

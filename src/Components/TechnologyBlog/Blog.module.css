@@ -1,0 +1,106 @@
+.blogindexContainer{
+    max-width: 1200px;
+    margin: 10em auto 10em auto;
+}
+.blogRow{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+.blogrowContainer{
+    background-color: var(--primary-color);
+    padding: 1.5em 2em;
+    border-radius: 8px;
+}
+.blogOne h7{
+    color: var(--secondary-color);
+    font-family: var(--primary-font-family);
+    font-size: 2rem;
+    font-weight: var(--font-weight-bold);
+    line-height: 3rem;
+}
+.blogOne p{
+    color: var(--secondary-color);
+    font-family: var(--primary-font-family);
+    font-size: 1.3rem;
+    font-weight: var(--font-weight-normal);
+    line-height: 1.2rem;
+    padding: 2em 0em 2em 0em;
+}
+.blogOne a{
+    text-decoration: none;
+    font-family: var(--primary-font-family);
+    font-size: 1.3rem;
+    font-weight: var(--font-weight-normal);
+    line-height: 1.2rem;
+    padding: .3em .5em .3em .5em;
+    color: var(--secondary-color);
+    background-color: #ff0000;
+    margin-top: 2em;
+    border-radius: 5px;
+}
+
+/* reactblog */
+.blogContainer{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10em;
+    margin-bottom: 10em;
+}
+.reactHeading h6{
+    color: var(--secondary-color);
+    font-family: var(--primary-font-family);
+    font-size: 2rem;
+    font-weight: var(--font-weight-bold);
+    line-height: 3rem;
+}
+.reactBlog p{
+    color: var(--secondary-color);
+    font-family: var(--primary-font-family);
+    font-size: 1.3rem;
+    font-weight: var(--font-weight-normal);
+    line-height: 1.2rem;
+    padding: 1em 0em 1em 0em;
+}
+.reactPoints ul li{
+    list-style: none;
+    font-family: var(--primary-font-family);
+    font-size: 1.3rem;
+    font-weight: var(--font-weight-normal);
+    line-height: 1.2rem;
+    color: var(--secondary-color);
+    padding: .5em 0em;
+}
+.vitePoints{
+    margin: 2em 0em;
+}
+.vitePoints h6{
+    padding-bottom: 1em;
+}
+.vitePoints ul li{
+    list-style: none;
+    font-family: var(--primary-font-family);
+    font-size: 1.3rem;
+    font-weight: var(--font-weight-normal);
+    line-height: 1.2rem;
+    color: var(--secondary-color);
+    padding: .5em 0em;
+}
+.vitePoints p{
+    list-style: none;
+    font-family: var(--primary-font-family);
+    font-size: 1.3rem;
+    font-weight: var(--font-weight-normal);
+    line-height: 1.2rem;
+    color: var(--secondary-color);
+    padding: .5em 0em;
+}
+@media screen and (max-width: 768px){
+    .blogindexContainer{
+        padding: 0em 2em;
+    }
+    .blogContainer{
+        padding: 0em 2em;
+    }
+}

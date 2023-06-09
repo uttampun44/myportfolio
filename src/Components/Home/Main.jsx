@@ -17,7 +17,7 @@ function Main() {
                      </div>
                      <div className={style.heroImage}>
                          <div className={style.image}>
-                              <img src='assets/portrait 1.png'/>
+                              <img src='/assets/portrait-1.webp'/>
                          </div>
                      </div>
                   </div>
@@ -57,7 +57,7 @@ web experience for end users.</p>
                         <div className={style.logoFive}><img src='/assets/tailwind.svg'/></div>
                         <div className={style.logoSix}><img src='/assets/react.svg'/></div>
                         <div className={style.logoSeven}><img src='/assets/git.svg'/></div>
-                        <div className={style.logoEight}><img src='/assets/PHP-logo.svg.png'/></div>
+                        <div className={style.logoEight}><img src='/assets/PHP-logo.webp'/></div>
                      </div>
                   </div>
                 </div>
@@ -73,7 +73,7 @@ web experience for end users.</p>
                    </div>
                     <div className={style.projectscardBody}>
                         <div className={style.projectOne}>
-                            <img src='/assets/hostinger.jpeg'/>
+                            <img src='/assets/hostinger.webp'/>
                             <div className={style.card}>
                                 <h5>Hostinger Clone (HTML, CSS and Javascript)</h5>
                                 <div className={style.projectLink}>
@@ -86,7 +86,7 @@ web experience for end users.</p>
                             </div>
                         </div>
                         <div className={style.projectOne}>
-                            <img src='/assets/amazonPrime.jpeg'/>
+                            <img src='/assets/amazonPrime.webp'/>
                             <div className={style.card}>
                                 <h5>Amazon Prime Clone <br></br>(React Project)</h5>
                                 <div className={style.projectLink}>
@@ -99,7 +99,7 @@ web experience for end users.</p>
                             </div>
                         </div>
                         <div className={style.projectOne}>
-                            <img src='/assets/amazonclone.jpeg'/>
+                            <img src='/assets/amazonclone.webp'/>
                             <div className={style.card}>
                                 <h5>Amazon Clone (React project with redux)</h5>
                                 <div className={style.projectLink}>
@@ -112,7 +112,7 @@ web experience for end users.</p>
                             </div>
                         </div>
                         <div className={style.projectOne}>
-                            <img src='/assets/fazzabeauty.png'/>
+                            <img src='/assets/fazzabeauty.webp'/>
                             <div className={style.card}>
                                 <h5>Fazza Beauty (React Project)</h5>
                                 <div className={style.projectLink}>
@@ -125,7 +125,7 @@ web experience for end users.</p>
                             </div>
                         </div>
                         <div className={style.projectOne}>
-                            <img src='/assets/uttamstore.png'/>
+                            <img src='/assets/uttamstore.webp'/>
                             <div className={style.card}>
                                 <h5>Uttam Store (React Project)</h5>
                                 <div className={style.projectLink}>
@@ -138,7 +138,7 @@ web experience for end users.</p>
                             </div>
                         </div>
                         <div className={style.projectOne}>
-                            <img src='/assets/aionintel.png'/>
+                            <img src='/assets/aionintel.webp'/>
                             <div className={style.card}>
                                 <h5>Aionintel (Wordpress project)</h5>
                                 <div className={style.projectLink}>
